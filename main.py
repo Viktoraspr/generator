@@ -1,5 +1,7 @@
 from src.generator import Generator
 
-d = Generator()
 
-print(f'Json output file: {d.run()}')
+if __name__ == '__main__':
+    generator = Generator()
+
+    print(f'Json output file: {generator.run()}')
